@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Rock, Paper and Scissors</title>
+  </head>
+  <body>
+    <div class="container">
+      <strong id="player" class="side">Player</strong>
+      <div class="hand" id="left-hand">
+        <img src="hand-fist.svg" id="player-hand" />
+      </div>
+      <strong id="computer" class="side">Computer</strong>
+      <div class="hand" id="right-hand">
+        <img src="hand-fist.svg" id="computer-hand" />
+      </div>
+
+      <div class="scores">
+        <span id="player-play" class="move"></span>
+        <span class="score" id="player-score">0</span>
+        <span id="computer-play" class="move"></span>
+        <span class="score" id="computer-score">0</span>
+      </div>
+
+      <div class="game-options">
+        <div class="circle" id="rock">
+          <img src="hand-grabbing.svg" class="option" />
+        </div>
+        <div class="circle" id="paper">
+          <img src="scroll.svg" class="option" />
+        </div>
+        <div class="circle" id="scissors">
+          <img src="scissors.svg" class="option" />
+        </div>
+      </div>
+      <div class="refresh">
+        <img src="arrow-counter-clockwise.svg" class="refresh-button" />
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
